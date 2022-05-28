@@ -1,5 +1,5 @@
 project: rnshah9/pciutils
-target: pciutils
+target: lspci
 tests: null
 
 cmds:
