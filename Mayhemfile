@@ -1,6 +1,5 @@
-project: rnshah9/pciutils
+project: pciutils
 target: lspci
-tests: null
 
 cmds:
   - cmd: /repo/lspci -F @@
