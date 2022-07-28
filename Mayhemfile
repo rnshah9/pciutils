@@ -2,4 +2,4 @@ project: pciutils
 target: lspci
 
 cmds:
-  - cmd: /repo/lspci -F @@
+  - cmd: /install/usr/local/bin/lspci -F @@
