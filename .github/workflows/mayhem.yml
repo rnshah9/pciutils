@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_pci_lookup_method
+          - mayhem/Mayhemfile_lspci
 
     steps:
       - uses: actions/checkout@v3

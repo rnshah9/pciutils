@@ -1,0 +1,6 @@
+project: pciutils
+target: pci-lookup-method
+
+cmds:
+  - cmd: /fuzz_pci_lookup_method
+    libfuzzer: true
